@@ -2,4 +2,7 @@
 /baremin.py
 /Dockerfile
 /rdp.md
-/ros2_ws
+/ros2_ws/build/
+/ros2_ws/install/
+/ros2_ws/logs/
+/ros2_ws/src/ros_tutorials/
