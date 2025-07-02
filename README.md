@@ -120,6 +120,9 @@ rosdep install -i --from-path src --rosdistro humble -y
 ```
 colcon build --symlink-install
 ```
+```
+colcon build --symlink-install --cmake-clean-cache
+```
 
 ```
 echo "source ~/ros2_ws/install/setup.bash" >> ~/.bashrc
