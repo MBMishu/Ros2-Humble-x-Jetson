@@ -87,8 +87,8 @@ sudo apt install python3-colcon-common-extensions
 ```
 
 ```
-mkdir -p ~/ros2_ws/src
-cd ~/ros2_ws
+mkdir -p ~/auv/src
+cd ~/auv
 ```
 
 ```
@@ -125,7 +125,7 @@ colcon build --symlink-install --cmake-clean-cache
 ```
 
 ```
-echo "source ~/ros2_ws/install/setup.bash" >> ~/.bashrc
+echo "source ~/auv/install/setup.bash" >> ~/.bashrc
 ```
 
 ```
